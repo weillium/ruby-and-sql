@@ -33,3 +33,6 @@ Activity.destroy_all
 #
 # Ben Block
 # Liked a tweet - Elon Musk
+
+contact = Contact.where({ email: "tim@apple.com"})
+contact.activity.notes
